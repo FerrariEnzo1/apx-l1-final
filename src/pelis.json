@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "id": 1,
+    "title": "El lobo de Wall Street",
+    "tags": ["Humor negro", "Drama", "Ficción detectivesca", "Policial"]
+  },
+  {
+    "id": 2,
+    "title": "Bastardos sin gloria",
+    "tags": ["Bélico", "Drama", "Acción", "Guerra", "Humor negro"]
+  },
+  {
+    "id": 3,
+    "title": "Avengers Endgame",
+    "tags": [
+      "Acción",
+      "Aventura",
+      "Super héroes",
+      "Viajes en el tiempo",
+      "Ciencia ficción"
+    ]
+  }
+]
