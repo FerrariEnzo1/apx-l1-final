@@ -73,7 +73,12 @@ class PelisCollection {
         }
 
         if (options.tag) {
-          if (!p.tags.includes(options.tag.toLowerCase())) {
+          // .some() recorre los tags de la película uno por uno
+          const tieneElTag = p.tags.some((tagDeLaPeli) => {
+            return tagDeLaPeli.toLowerCase() === options.tag!.toLowerCase();
+          });
+
+          if (!tieneElTag) {
             esteVa = false;
           }
         }
